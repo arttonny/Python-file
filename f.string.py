@@ -1,6 +1,6 @@
 name = input("enter your name;")
 age = input("enter your age;")
 height = input("enter your height:")
-print("My name is" +name, "I am " + height+ " meters tall  and "+ age+ " years old")
+print("My name is " +name, "I am " + height+ " meters tall  and "+ age+ " years old")
 print("My name is", name, "I am ",  height, " meters tall  and ", age, " years old")
 print(f"My name is {name}. I am {height} meters tall ang {age} years old")

@@ -24,3 +24,12 @@ print(user.values())
 print(user.items())
 #to print the length of a dictionary
 print(len(user))
+#checking if a key exists in a dictionary
+if "email" in user:
+    print("email exists")
+else:
+    print("email does not exist")
+if "age" in user:
+    print(f"{user['name']} is {user['age']} years old")
+else:
+    print("age does not appear in the dictionary")
